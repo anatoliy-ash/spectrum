@@ -120,9 +120,6 @@ $(function() {
 	// Masked input phone
 	$("input[name='phone']").inputmask("+7(999)999-99-99");
 
-
-	// dotsClass
-
 	$('.five-reasons-carousel').owlCarousel({
 		dots: true,
 		nav: true,
