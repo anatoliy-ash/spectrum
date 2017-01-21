@@ -478,6 +478,8 @@ form {
       display: block;
       margin: 15px 0 0;
       font-size: 1.5rem; }
+  .base form .btn {
+    width: 100%; }
   .base ul.advantages {
     margin: 20px 0 0 50px;
     font-size: 1.5rem;
@@ -723,7 +725,7 @@ form {
     .form-request form input[name="email"],
     .form-request form input[name="meters"] {
       margin: 0 0 15px 16px; }
-    .form-request form input[type="submit"] {
+    .form-request form button {
       margin: 25px auto 0;
       max-width: 262px; }
 

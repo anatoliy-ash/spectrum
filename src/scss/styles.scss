@@ -144,6 +144,12 @@
 		}
 	}
 
+	form {
+		.btn {
+			width: 100%;
+		}
+	}
+
 	ul.advantages {
 		margin: 20px 0 0 50px;
 		font-size: 1.5rem;
@@ -259,6 +265,8 @@
 			}
 		}
 	}
+
+
 }
 
 
@@ -454,12 +462,6 @@
 		background-size: cover;
 		background-position: top center; 
 	}
-
-	// @for $i from 1 through 5 {
-	// 	.item#{$i} {
-	// 		background-image: url('../img/five-reasons_slide#{$i}.png');
-	// 	}
-	// }
 }
 
 
@@ -509,7 +511,7 @@
 			margin: 0 0 15px 16px;
 		}
 
-		input[type="submit"] {
+		button {
 			margin: 25px auto 0;
 			max-width: 262px;
 		}
